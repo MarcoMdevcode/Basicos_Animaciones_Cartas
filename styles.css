@@ -1,0 +1,249 @@
+body{
+    background-color: rgb(7, 126, 27);
+}
+div{
+    margin-top: 220px;
+    margin-left: 120px;
+    border: 2px solid black;
+    height: 250px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+    border-radius: 15px;
+}
+.detras1{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 1;
+    animation-delay: 4s;
+    transition: 7.5s;
+}
+.detras2{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 2;
+    animation-delay: 4s;
+    transition: 7s;
+}
+.detras3{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 3;
+    animation-delay: 4s;
+    transition: 6.5s;
+}
+.detras4{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 4;
+    animation-delay: 4s;
+    transition: 6s;
+}
+.detras5{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 5;
+    animation-delay: 4s;
+    transition: 5.5s;
+}
+.detras6{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 6;
+    animation-delay: 4s;
+    transition: 5s;
+}
+.detras7{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 7;
+    animation-delay: 4s;
+    transition: 4.5s;
+}
+.detras8{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 8;
+    animation-delay: 4s;
+    transition: 4s;
+}
+.detras9{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 9;
+    animation-delay: 4s;
+    transition: 3.5s;
+}
+.detras10{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 10;
+    animation-delay: 4s;
+    transition: 3s;
+}
+.detras11{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 11;
+    animation-delay: 4s;
+    transition: 2.5s;
+}
+.detras12{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 12;
+    animation-delay: 4s;
+    transition: 2s;
+}
+.detras13{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 13;
+    animation-delay: 4s;
+    transition: 1.5s;
+}
+.detras14{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 14;
+    animation-delay: 4s;
+    transition: 1s;
+}
+.detras15{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: 15;
+    animation: girar2 1s ease-in-out;
+    animation-delay: 6s;
+    transition: 0.7s;
+}
+.corazon{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: -4;
+    animation: mover1 6s ease-in-out;
+    animation-delay: 7s;
+    transition: 5s;
+}
+.espada{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: -3;
+    animation: mover2 7s ease-in-out;
+    animation-delay: 8s;
+    transition: 5s;
+}
+.trebol{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: -2;
+    animation: mover3 8s ease-in-out;
+    animation-delay: 9s;
+    transition: 5s;
+}
+.diamante{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    border-radius: 15px;
+    z-index: -1;
+    animation: girar 7.5s ease-in-out;
+    animation-delay: 11s;
+    transition: 5s;
+} 
+@keyframes mover1 {
+    100%{ transform: translateX(150px);}
+}
+@keyframes mover2 {
+    100%{ transform: translateX(170px);}
+}
+@keyframes mover3 {
+    100%{ transform: translateX(190px);}
+}
+@keyframes girar2 {
+    100%{ transform: rotateY(180deg);}
+}
+@keyframes girar {
+    0%{ transform: rotateZ(0deg);}
+    25%{ transform: translateX(0px);}
+    50%{ transform: translateX(210px);}
+    75%{ transform: translateX(210px);}
+    100%{ transform: rotateZ(20deg);}
+}
+footer{
+    top: 520px;
+    position: fixed;
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    border: 2px double black;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.boton{
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+    position: relative;
+    top: 450px;
+    left: 200px;
+    width: 75px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+.boton:hover{
+    color: wheat;
+    background-color: blueviolet;
+}
+.logo{
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
